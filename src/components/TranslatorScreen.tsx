@@ -423,7 +423,7 @@ const TranslatorScreen: React.FC<TranslatorScreenProps> = ({ onBack }) => {
             className="neumorphic-button flex items-center px-4 py-2 rounded-xl bg-[#f0f4f8] shadow-[3px_3px_6px_rgba(0,0,0,0.1),_-3px_-3px_6px_rgba(255,255,255,0.7)] hover:shadow-[2px_2px_4px_rgba(0,0,0,0.1),_-2px_-2px_4px_rgba(255,255,255,0.7)] active:shadow-[inset_2px_2px_5px_rgba(0,0,0,0.1),_inset_-3px_-3px_7px_rgba(255,255,255,0.7)] transition-all duration-300"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Welcome Screen
+            Back
           </button>
           
           <img 
