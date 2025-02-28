@@ -54,7 +54,7 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart }) => {
           <FeatureCard 
             icon={Play}
             title="Audio Playback"
-            description="Stop the Microphone and Listen to the translated text with natural-sounding speech to ensure proper pronunciation and understanding."
+            description="Click on audio play to Listen to the translated text with natural-sounding speech to ensure proper pronunciation and understanding...and refresh"
           />
         </div>
 
