@@ -5,7 +5,7 @@ export class TranslationService {
   private isListening: boolean = false;
   private reconnectInterval: number = 3000;
   private pingInterval: NodeJS.Timeout | null = null;
-  private serverUrl: string = 'wss://92d2-2c0f-2a80-7ac-1210-c4d5-be90-f9eb-3a3.ngrok-free.app/ws/medical-translator';
+  private serverUrl: string = 'wss://healthcare-translation-web-app-with-ibvg.onrender.com/ws/medical-translator';
   private currentTranslation: string = '';
   private localAccumulatedTranslation: string = '';
   private reconnectAttempts: number = 0;
