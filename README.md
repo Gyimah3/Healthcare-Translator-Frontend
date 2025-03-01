@@ -18,6 +18,8 @@ This project is a real‑time voice translator built with React and Vite. The fr
 
 ## Project Structure
 
+
+
 Project Root
 ├── .bolt/
 │   ├── config.json
@@ -51,6 +53,7 @@ Project Root
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+
 
 
 
