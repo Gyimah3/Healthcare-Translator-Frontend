@@ -435,11 +435,11 @@ const TranslatorScreen: React.FC<TranslatorScreenProps> = ({ onBack }) => {
         
         <div className="glassmorphic-container bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-2xl p-6 border border-white border-opacity-20 shadow-lg mb-8">
           <h1 className="text-2xl font-bold mb-2 text-gray-800">Voice Translator</h1>
-          <p className="text-gray-600 mb-6">Speak in one language, translate to another with AI-powered accuracy</p>
+          <p className="text-gray-600 mb-6">Speak in one language, translate to another with AI-powered accuracy...Note❗ Because of the Price in API, we currently support ONLY English as default Source Language</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <LanguageSelector 
-              label="Source Language"
+              label="Source Language(English Default)"
               value={sourceLanguage}
               onChange={setSourceLanguage}
             />
