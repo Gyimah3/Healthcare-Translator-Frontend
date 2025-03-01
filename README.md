@@ -20,6 +20,31 @@ This project is a real‑time voice translator built with React and Vite. The fr
 
 
 
+# Medical Voice Translator
+
+A real-time medical translation system that enables multilingual communication in healthcare settings using AI technologies.
+
+## Features
+
+- Real-time speech transcription using AssemblyAI
+- Medical-focused translation using OpenAI GPT-4
+- Text-to-speech output using ElevenLabs
+- Support for 20+ languages
+- Real-time transcript and translation display
+- Instant audio playback of translations
+
+## Technology Stack
+
+- **Frontend**: HTML, CSS, JavaScript with WebSocket
+- **Backend**: FastAPI (Python)
+- **AI Services**:
+  - AssemblyAI - Real-time speech transcription
+  - OpenAI GPT-4 - Medical translation
+  - ElevenLabs - Text-to-speech synthesis
+
+## Project Structure
+
+```
 Project Root
 ├── .bolt/
 │   ├── config.json
@@ -53,10 +78,7 @@ Project Root
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
-
-
-
-
+```
 
 - **src/services/pcm-processor.js:**  
   Contains an AudioWorkletProcessor (`PCMProcessor`) that converts incoming Float32 audio samples to 16‑bit PCM and posts the data (as an ArrayBuffer) to the main thread.
